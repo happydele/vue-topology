@@ -1,0 +1,56 @@
+/*          reset css       */
+*,
+::before,
+::after {
+  /*选择所有标签*/
+  margin: 0;
+  padding: 0;
+  /*清除移动端默认的点击高亮效果*/
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  /*设置所有的元素都是以边框开始计算宽度的 百分比*/
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  color: #000;
+  background-color: #fff;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+.flex{
+  display: flex;
+}
+.lf {
+  float: left
+}
+.gt {
+  float: right;
+}
+.clearfix:after{
+  display: block;
+  font-size:0;
+  content: " ";
+  clear: both;
+  height:0;
+  line-height:0;
+  zoom: 1;
+  visibility: hidden;
+}
+input {
+  border: none;
+  outline: none;
+  /*清除移动端默认的表单样式*/
+  -webkit-appearance: none;
+}
