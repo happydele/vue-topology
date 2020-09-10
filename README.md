@@ -1,5 +1,7 @@
 # vue-topology 工作流程图
 
+![示例](https://github.com/happydele/vue-topology/blob/master/src/assets/canvas.png)
+
 ## Project setup
 
 ```
